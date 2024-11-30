@@ -100,7 +100,7 @@ I’m a full-stack developer specializing in responsive, user-focused web experi
             },
             {
                 company: 'Kinetic Solutions LLC',
-                timeframe: '2021 - Present',
+                timeframe: '2021 - Present', 
                 role: 'Instructor / Full-Stack Developer',
                 achievements: [
                     <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
