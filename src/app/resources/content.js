@@ -22,24 +22,24 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'Github',
+        name: 'TrustworthyDev',
         icon: 'github',
         link: 'https://github.com/TrustworthyDev',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/in/dustinmmoore/',
+        link: 'https://www.linkedin.com/in/',
     },
     {
-        name: '(561) 501 1550',
+        name: '+1 (561) 501 1550',
         icon: 'phone',
-        link: '(561) 501 1550',
+        link: 'tel:+15615011550',
     },
     {
-        name: 'Skype',
+        name: 'live:.cid.3877235d4216d91f',
         icon: 'skype',
-        link: '123465789',
+        link: 'skype:live:.cid.3877235d4216d91f?chat',
     },
     {
         name: 'Discord',
@@ -47,7 +47,7 @@ const social = [
         link: '123465789',
     },
     {
-        name: 'Email',
+        name: 'Stefano.Mori.Dev@gmail.com',
         icon: 'email',
         link: 'mailto:stefano.mori.dev@gmail.com',
     }, 
@@ -59,17 +59,17 @@ const home = {
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <span style={{ fontFamily: 'var(--font-family-code)' }}>
                 <LetterFx
-                    speed="slow"
+                    speed="medium"
                     trigger="instant"
                     charset={[
                         'X', '@', 'd', 'u', 's', 't', 'i', 'n', '$', 'a', 'H', 'z', 'o', '0',
                         'y', '#', '?', '*', '0', '1', '+', 'm', 'o', 'o', 'r', 'e'
                     ]}
                 >
-                    Crafting Seamless Digital Experiences and IT Solutions with Passion
+                    Driving Innovation and Excellence Through Expertly Crafted Digital Solutions and IT Strategies
                 </LetterFx>
             </span>,
-    subline: <>Hi! I’m Stefano, a <InlineCode>Full-Stack Developer</InlineCode> focused on creating engaging digital experiences with clean, efficient code. Whether it's crafting responsive front-end interfaces or building robust back-end solutions, I love diving into every aspect of web development. In my spare time, I work on personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest technologies.</>
+    subline: <>I’m a results-driven <InlineCode>Full Stack Developer</InlineCode> and <InlineCode>IT Solutions Architect</InlineCode> passionate about turning complex challenges into innovative opportunities. With extensive experience in delivering expertly crafted digital solutions and IT strategies, I focus on creating seamless, impactful, and future-ready systems. My mindset is anchored in continuous growth, problem-solving, and delivering excellence that empowers businesses to thrive in a rapidly evolving digital landscape. Every project I take on reflects my commitment to precision, innovation, and exceeding expectations.</>
 }
 
 const about = {
@@ -90,9 +90,8 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>
-I’m a full-stack developer specializing in responsive, user-focused web experiences. Starting with Squarespace, I quickly advanced to frameworks like React, Bootstrap, and Next.js, along with Node.js for back-end development, allowing me to build seamless, high-quality digital solutions from end to end. I use tools like Git, GitHub, and Vercel to optimize workflows and ensure efficient deployment, consistently delivering projects on time. By embracing AI and modern technologies, I prioritize efficiency and industry standards, crafting intuitive, engaging web experiences that drive results.
-</>
+        description: [<>I’m a visionary Full Stack Developer and IT Solutions Expert committed to driving innovation and delivering excellence. With years of experience in creating tailored digital solutions, I specialize in bridging technology and strategy to empower businesses. My approach is grounded in precision, creativity, and a deep understanding of diverse needs, ensuring every solution is not only efficient but impactful. Whether designing user-focused applications or optimizing IT strategies, I am dedicated to transforming complex ideas into seamless, cutting-edge results.
+        </>]
     },
     work: {
         display: true, // set to false to hide this section

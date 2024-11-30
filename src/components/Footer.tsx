@@ -9,6 +9,10 @@ export const Footer = () => {
     const t = useTranslations();
     const { person, social } = renderContent(t);
 
+    const copyToClipboard = (link: String) => {
+        console.log(link);
+    }
+
     return (
         <Flex
             as="footer"
@@ -29,7 +33,6 @@ export const Footer = () => {
                         {person.name}
                     </Text>
                     <Text onBackground="neutral-weak">
-                        {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
                         /<SmartLink style={{marginLeft: '-0.125rem'}} href="https://once-ui.com/templates/magic-portfolio">Once UI</SmartLink>
                     </Text>
                 </Text>
@@ -43,7 +46,8 @@ export const Footer = () => {
                                 icon={item.icon}
                                 tooltip={item.name}
                                 size="s"
-                                variant="ghost"/>
+                                variant="ghost"
+                            />
                         )
                     ))}
                 </Flex>
