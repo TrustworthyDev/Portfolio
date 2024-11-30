@@ -13,7 +13,7 @@ const routes = {
     '/':        true,
     '/about':   true,
     '/work':    true,
-    '/blog':    true,
+    '/blog':    false,
     '/gallery': false,
 }
 
@@ -24,21 +24,22 @@ const protectedRoutes = {
 }
 
 const effects = {
-    gradient: true,
+    gradient: false,
     dots:     true,
-    lines:    false,
+    lines:    true,
 }
 
 const style = {
-    theme:       'dark',         // dark | light
-    neutral:     'gray',         // sand | gray | slate
-    brand:       'aqua',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'yellow',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    solid:       'contrast',     // color | contrast
-    solidStyle:  'flat',         // flat | plastic
-    border:      'playful',      // rounded | playful | conservative
-    surface:     'translucent',  // filled | translucent
-    transition:  'all'           // all | micro | macro
+    theme:       'dark',        // dark | light
+    neutral:     'slate',        // sand | gray | slate
+    brand:       'aqua',        // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    accent:      'aqua',        // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    solid:       'contrast',    // color | contrast
+    solidStyle:  'plastic',     // flat | plastic
+    border:      'playful',     // rounded | playful | conservative
+    surface:     'translucent', // filled | translucent
+    transition:  'all',         // all | micro | macro
+    scaling:     '100',         // 90 | 95 | 100 | 105 | 110
 }
 
 const display = {

@@ -173,7 +173,9 @@ export default function About(
                         )}
                         <Heading
                             className={styles.textAlign}
-                            variant="display-strong-xl">
+                            variant="display-strong-xl"
+                            
+                        >
                             {person.name}
                         </Heading>
                         <Text

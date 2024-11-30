@@ -8,8 +8,8 @@ const person = {
     },
     role:      'Full-Stack Developer',
     avatar:    '/images/mi.png',
-    location: 'South Carolina, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Japanese']  // optional: Leave the array empty if you don't want to display languages
+    location: 'Pensacola, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['Japanese', 'English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -22,7 +22,7 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'TrustworthyDev',
+        name: 'Github',
         icon: 'github',
         link: 'https://github.com/TrustworthyDev',
     },
@@ -47,9 +47,9 @@ const social = [
         link: '123465789',
     },
     {
-        name: 'dustinmmoore@icloud.com',
+        name: 'Email',
         icon: 'email',
-        link: 'mailto:dustinmmoore@icloud.com',
+        link: 'mailto:stefano.mori.dev@gmail.com',
     }, 
 ]
 
